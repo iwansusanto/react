@@ -1,4 +1,5 @@
 import React from 'react';
+import { DefaultButton } from '@fluentui/react'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         </svg>
       </div>
       <p className="mt-6 tracking-wide">
-        Edit <code>src/App.jsx</code> and save to reload.
+        Edit code <code>src/App.jsx</code> and save to reload.
       </p>
       <div className="mt-4 flex justify-center">
         <a
@@ -39,6 +40,7 @@ function App() {
         >
           Learn Tailwind
         </a>
+        <DefaultButton className="ml-4 focus:outline-none py-5 px-4 rounded" text="I'm FluentUI" />
       </div>
     </div>
   );
